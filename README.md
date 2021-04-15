@@ -6,3 +6,9 @@ Apache POI 5.0 is supposed to be [fully compatible with JPMS](https://poi.apache
 [Andreas Beeker](https://github.com/kiwiwings) posted a working demo project for Apache POI x JPMs, as [a comment to a bug report on the bugzilla platform of the Apache Foundation](https://bz.apache.org/bugzilla/show_bug.cgi?id=65103#c11).
 
 This repo is merely a republishing of this project, to make it easier to discover and re-use. Thanks to Andreas and enjoy!
+
+### To build
+mvn clean install
+
+### To run
+java --module-path "target\\modules" --module poiooxmljpmsbroken
