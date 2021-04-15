@@ -1,5 +1,5 @@
-# ApachePoi5.0.0-and-JPMS
-A maven project showing Apache POI 5.0.0 working with JPMS - without batik etc. related issues
+# Apache Poi 5.0.0 and JPMS
+## A maven project showing how the two can work together - without batik etc. related issues
 
 Apache POI 5.0 is supposed to be [fully compatible with JPMS](https://poi.apache.org/) but in practice we still hit errors related to missing modules descriptors etc.
 
